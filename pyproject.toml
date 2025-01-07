@@ -14,6 +14,9 @@ readme = "README.md"
 requires-python = ">=3.11"
 dynamic = ["dependencies", "optional-dependencies"]
 
+[project.scripts]
+train = "src.s2_cookiecutter.train:train"
+
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
 
@@ -22,6 +25,9 @@ dev = {file = ['requirements_dev.txt']}
 
 [tool.ruff]
 line-length = 120
+
+[tool.ruff.lint]
+select = ["I"]
 
 [tool.coverage.run]
 omit = ["tests/*"]
