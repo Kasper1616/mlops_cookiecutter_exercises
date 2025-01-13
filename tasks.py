@@ -17,6 +17,7 @@ def create_environment(ctx: Context) -> None:
         pty=not WINDOWS,
     )
 
+
 @task
 def git(ctx, m) -> None:
     """Git add, commit and push."""

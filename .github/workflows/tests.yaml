@@ -39,3 +39,6 @@ jobs:
         run: |
           coverage run -m pytest tests/
           coverage report -m
+      - name: ruff check
+        run: |
+          ruff check

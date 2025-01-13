@@ -13,8 +13,7 @@ def train(lr: float = 1e-3, batch_size: int = 32, epochs: int = 10) -> None:
     """Train a model on MNIST."""
     print("Training day and night")
     print(f"{lr=}, {batch_size=}, {epochs=}")
-    run = wandb.init(project="cookiecutter_mlops",
-               config={"lr": lr, "batch_size": batch_size, "epochs": epochs})
+    run = wandb.init(project="cookiecutter_mlops", config={"lr": lr, "batch_size": batch_size, "epochs": epochs})
 
     model = MyAwesomeModel().to(DEVICE)
     train_set, _ = corrupt_mnist()
