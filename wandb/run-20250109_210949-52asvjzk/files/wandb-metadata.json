@@ -1,0 +1,55 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "CPython 3.11.5",
+    "heartbeatAt": "2025-01-09T20:09:50.711692",
+    "startedAt": "2025-01-09T20:09:49.753680",
+    "docker": null,
+    "args": [
+        "service",
+        "--debug",
+        "--port-filename",
+        "/var/folders/lk/9gb4wt252bn_8rj543l8lqlr0000gn/T/tmp0uek7_cq/port-26494.txt",
+        "--pid",
+        "26494"
+    ],
+    "state": "running",
+    "program": "/Users/kasper/Desktop/Uni-mappen/Master/7.Semester/MLops/dtu_mlops/s2_organisation_and_version_control/Cookiecutter/mlops_cookiecutter_exercises/src/s2_cookiecutter/train.py",
+    "codePathLocal": "src/s2_cookiecutter/train.py",
+    "codePath": "src/s2_cookiecutter/train.py",
+    "git": {
+        "remote": "git@github.com:Kasper1616/mlops_cookiecutter_exercises.git",
+        "commit": "5f8369ebd50b515a09398117afcb723ab32895ff"
+    },
+    "email": "s214786@student.dtu.dk",
+    "root": "/Users/kasper/Desktop/Uni-mappen/Master/7.Semester/MLops/dtu_mlops/s2_organisation_and_version_control/Cookiecutter/mlops_cookiecutter_exercises",
+    "host": "Mac",
+    "username": null,
+    "executable": "/Users/kasper/miniconda3/envs/DL/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3204,
+        "min": 600,
+        "max": 3204
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3204,
+            "min": 600,
+            "max": 3204
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 245107195904,
+            "used": 199451115520
+        },
+        "/System/Volumes/Data": {
+            "total": 245107195904,
+            "used": 199451115520
+        }
+    },
+    "memory": {
+        "total": 8589934592
+    }
+}

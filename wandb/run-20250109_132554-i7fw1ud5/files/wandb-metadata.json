@@ -1,0 +1,48 @@
+{
+  "os":  "macOS-14.4.1-arm64-arm-64bit",
+  "python":  "CPython 3.11.5",
+  "startedAt":  "2025-01-09T12:25:54.926545Z",
+  "args":  [
+    "--epochs",
+    "5"
+  ],
+  "program":  "/Users/kasper/Desktop/Uni-mappen/Master/7.Semester/MLops/dtu_mlops/s2_organisation_and_version_control/Cookiecutter/mlops_cookiecutter_exercises/src/s2_cookiecutter/train.py",
+  "codePath":  "src/s2_cookiecutter/train.py",
+  "git":  {
+    "remote":  "git@github.com:Kasper1616/mlops_cookiecutter_exercises.git",
+    "commit":  "5f8369ebd50b515a09398117afcb723ab32895ff"
+  },
+  "email":  "kasper.g.roenberg@gmail.com",
+  "root":  "/Users/kasper/Desktop/Uni-mappen/Master/7.Semester/MLops/dtu_mlops/s2_organisation_and_version_control/Cookiecutter/mlops_cookiecutter_exercises",
+  "host":  "Mac",
+  "executable":  "/Users/kasper/miniconda3/envs/DL/bin/python",
+  "codePathLocal":  "src/s2_cookiecutter/train.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "199393701888"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "245107195904",
+      "used":  "199393701888"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M1",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  7,
+    "memoryGb":  8,
+    "swapTotalBytes":  "4294967296",
+    "ramTotalBytes":  "8589934592"
+  }
+}
