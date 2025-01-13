@@ -1,7 +1,7 @@
 import pytest
 import torch
 
-from s2_cookiecutter.model import MyAwesomeModel
+from src.s2_cookiecutter.model import MyAwesomeModel
 
 
 @pytest.mark.parametrize("batch_size", [32, 64])

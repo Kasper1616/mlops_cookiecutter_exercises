@@ -1,6 +1,6 @@
 import torch
 
-from s2_cookiecutter.data import corrupt_mnist
+from src.s2_cookiecutter.data import corrupt_mnist
 
 
 def test_data():
