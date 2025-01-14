@@ -7,7 +7,7 @@ steps:
     '-t',
     'europe-west1-docker.pkg.dev/rapid-sphinx-447811-p3/mlops/train:latest',
     '-f',
-    'data/'
+    'dockerfiles/train.dockerfile'
   ]
 - name: 'gcr.io/cloud-builders/docker'
   id: 'Push train container image'
@@ -23,7 +23,7 @@ steps:
     '-t',
     'europe-west1-docker.pkg.dev/rapid-sphinx-447811-p3/mlops/evaluate:latest',
     '-f',
-    'data/'
+    'dockerfiles/evaluate.dockerfile'
   ]
 - name: 'gcr.io/cloud-builders/docker'
   id: 'Push evaluate container image'
