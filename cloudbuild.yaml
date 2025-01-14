@@ -1,0 +1,35 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  id: 'Build train container image'
+  args: [
+    'build',
+    '.',
+    '-t',
+    'europe-west1-docker.pkg.dev/rapid-sphinx-447811-p3/mlops/train:latest',
+    '-f',
+    'data/'
+  ]
+- name: 'gcr.io/cloud-builders/docker'
+  id: 'Push train container image'
+  args: [
+    'push',
+    'europe-west1-docker.pkg.dev/rapid-sphinx-447811-p3/mlops/train:latest'
+  ]
+- name: 'gcr.io/cloud-builders/docker'
+  id: 'Build evaluate container image'
+  args: [
+    'build',
+    '.',
+    '-t',
+    'europe-west1-docker.pkg.dev/rapid-sphinx-447811-p3/mlops/evaluate:latest',
+    '-f',
+    'data/'
+  ]
+- name: 'gcr.io/cloud-builders/docker'
+  id: 'Push evaluate container image'
+  args: [
+    'push',
+    'europe-west1-docker.pkg.dev/rapid-sphinx-447811-p3/mlops/evaluate:latest'
+  ]
+options:
+  logging: CLOUD_LOGGING_ONLY
