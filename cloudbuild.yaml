@@ -31,5 +31,3 @@ steps:
     'push',
     'europe-west1-docker.pkg.dev/rapid-sphinx-447811-p3/mlops/evaluate:latest'
   ]
-options:
-  logging: CLOUD_LOGGING_ONLY
